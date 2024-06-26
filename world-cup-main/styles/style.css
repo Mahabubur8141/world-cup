@@ -1,0 +1,115 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 300px;
+    height: 646px;
+    width: 1321px;
+    border-radius: 10px;
+}
+
+.font {
+    font-size: 3em;
+}
+
+.switch {
+    height: 40px;
+    width: 70px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* .image {
+    height: 600px;
+    width: 680px;
+} */
+
+.greatest {
+    padding-left: 50px;
+}
+
+/* New container style */
+.side_button {
+    display: grid;
+    grid-template-columns: 3;
+    background-color: black;
+    height: 100px;
+    width: 300px;
+
+}
+
+.bg_color {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.new_container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 5px; */
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+
+/* footer */
+
+.ending {
+    background-color: black;
+    color: white;
+    height: 444px;
+    width: 1600px;
+
+}
+
+.Last {
+    font-size: 3em;
+    /* display: flex; */
+    text-align: center;
+
+
+}
+
+.second_last {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* media queries */
+
+@media only screen and (min-width:480px) {
+    .container {
+        width: 100%
+    }
+
+}
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+}
